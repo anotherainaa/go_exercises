@@ -67,10 +67,10 @@ func pairs(nums []int) int {
 }
 
 func main() {
-	// fmt.Println(pairs([]int{1, 2, 5, 6, 5, 2}))
+	fmt.Println(pairs([]int{1, 2, 5, 6, 5, 2}))
 	fmt.Println(pairs([]int{1, 2, 2, 20, 6, 20, 2, 6, 2}))
-	// fmt.Println(pairs([]int{0, 0, 0, 0, 0, 0, 0}))
-	// fmt.Println(pairs([]int{1000, 1000}))
-	// fmt.Println(pairs([]int{}))
-	// fmt.Println(pairs([]int{54}))
+	fmt.Println(pairs([]int{0, 0, 0, 0, 0, 0, 0}))
+	fmt.Println(pairs([]int{1000, 1000}))
+	fmt.Println(pairs([]int{}))
+	fmt.Println(pairs([]int{54}))
 }
