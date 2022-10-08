@@ -27,4 +27,4 @@ Re-call notes
 - the difference between rune and bytes
   - bytes is utf8? 
   - rune is utf32. Rune is an integer representing the character. 
-- byte is useful for some things, like when exporting the Go application to be used by something else also using bytes 
+- byte is useful for some things, like when exporting the Go application to be used by something else also using bytes
